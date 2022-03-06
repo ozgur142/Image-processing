@@ -1,0 +1,11 @@
+
+mogrify:
+	-> changer format de toutes les images jpg en png
+	mogrify -format png *.jpg
+	-> changer taille
+	mogrify -resize 256x256 *.jpg
+
+gnuplot:
+	>gnuplot
+	gnuplot> plot 'fich.dat' with lines  //pour ploter une seuile data
+	gnuplot> plot "hist3.dat" using 1:2 title "Rouge" w l lt rgb 'red', "hist3.dat" using 1:3 title "Vert" w l lt rgb 'green', "hist3.dat" using 1:4 title "Blue" w l lt rgb 'blue' //ploter rgb

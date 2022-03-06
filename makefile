@@ -1,0 +1,25 @@
+all:
+	g++ -Wall seuils_pgm.cpp -o bin/seuils_pgm
+	g++ -Wall histo_pgm.cpp -o bin/histo_pgm
+	g++ -Wall profile_pgm.cpp -o bin/profile_pgm
+	g++ -Wall seuils_rgb.cpp -o bin/seuils_rgb
+	g++ -Wall histo_rgb.cpp -o bin/histo_rgb
+	g++ -Wall erosion_pgm.cpp -o bin/erosion_pgm
+	g++ -Wall erosion_rgb.cpp -o bin/erosion_rgb
+	g++ -Wall dilatation_pgm.cpp -o bin/dilatation_pgm
+	g++ -Wall dilatation_rgb.cpp -o bin/dilatation_rgb
+	g++ -Wall fermeture_pgm.cpp -o bin/fermeture_pgm
+	g++ -Wall ouverture_pgm.cpp -o bin/ouverture_pgm
+	g++ -Wall difference.cpp -o bin/difference
+	g++ -Wall inverse_pgm.cpp -o bin/inverse_pgm
+	g++ -Wall filtre_flou1.cpp -o bin/filtre_flou1
+	g++ -Wall filtre_flou2.cpp -o bin/filtre_flou2
+	g++ -Wall flou_rgb.cpp -o bin/flou_rgb
+	g++ -Wall norme_gradient_pgm.cpp -o bin/norme_gradient_pgm
+	g++ -Wall hysteresis_pgm.cpp -o bin/hysteresis_pgm
+	g++ -Wall filtre_gaussien_pgm.cpp -o bin/filtre_gaussien_pgm
+	g++ -Wall RGBtoY.cpp -o bin/RGBtoY
+	g++ -Wall EQM.cpp -o bin/EQM
+	g++ -Wall RGBtoYCbCr.cpp -o bin/RGBtoYCbCr
+	g++ -Wall YCbCrtoRGB.cpp -o bin/YCbCrtoRGB
+	g++ -Wall modifY.cpp -o bin/modifY
